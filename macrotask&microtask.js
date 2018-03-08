@@ -22,7 +22,7 @@ console.log(8);
 
 /* 
 优先级关系
-process.nextTick > promise.then > setTimeout > setImmediate
+aync > process.nextTick > promise.then > setTimeout > setImmediate
 */
 //V8实现中，两个队列各包含不同的任务：
 
